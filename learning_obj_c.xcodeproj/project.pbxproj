@@ -7,16 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB1F8ED21C177AEE00505E71 /* AdLibCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1F8ED11C177AEE00505E71 /* AdLibCollectionViewController.m */; };
+		AB1F8ED61C1780A600505E71 /* AdLibCustomCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1F8ED51C1780A600505E71 /* AdLibCustomCollectionViewCell.m */; };
+		AB4CCD011C0CE9C7007FAF19 /* AdverbViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4CCD001C0CE9C7007FAF19 /* AdverbViewController.m */; };
+		AB4CCD041C0CEE75007FAF19 /* NounViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4CCD031C0CEE75007FAF19 /* NounViewController.m */; };
+		AB4CCD071C0CEE86007FAF19 /* DisplaySentenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4CCD061C0CEE86007FAF19 /* DisplaySentenceViewController.m */; };
+		AB4CCD121C0E3EC4007FAF19 /* MadLibTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4CCD111C0E3EC4007FAF19 /* MadLibTableViewController.m */; };
+		AB4CCD1C1C110D53007FAF19 /* SecondMadLibViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4CCD1B1C110D53007FAF19 /* SecondMadLibViewController.m */; };
+		AB4CCD261C14F313007FAF19 /* Fireworks-iOS in Resources */ = {isa = PBXBuildFile; fileRef = AB4CCD211C14F313007FAF19 /* Fireworks-iOS */; };
+		AB4CCD271C14F313007FAF19 /* README in Resources */ = {isa = PBXBuildFile; fileRef = AB4CCD251C14F313007FAF19 /* README */; };
+		AB4CCD2D1C14F380007FAF19 /* FireWorksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4CCD2C1C14F380007FAF19 /* FireWorksViewController.m */; };
 		ABA891321C0214BE00907931 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA891311C0214BE00907931 /* main.m */; };
 		ABA891351C0214BE00907931 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA891341C0214BE00907931 /* AppDelegate.m */; };
-		ABA891381C0214BE00907931 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA891371C0214BE00907931 /* ViewController.m */; };
+		ABA891381C0214BE00907931 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA891371C0214BE00907931 /* MainViewController.m */; };
 		ABA8913B1C0214BE00907931 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA891391C0214BE00907931 /* Main.storyboard */; };
 		ABA8913D1C0214BE00907931 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABA8913C1C0214BE00907931 /* Images.xcassets */; };
 		ABA891401C0214BE00907931 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABA8913E1C0214BE00907931 /* LaunchScreen.xib */; };
 		ABA8914C1C0214BE00907931 /* learning_obj_cTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA8914B1C0214BE00907931 /* learning_obj_cTests.m */; };
+		ABA8915C1C064E5A00907931 /* PushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA8915B1C064E5A00907931 /* PushViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		AB4CCD291C14F313007FAF19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB4CCD221C14F313007FAF19 /* Fireworks-iOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 988F9402146DD3B800C11DF8;
+			remoteInfo = "Fireworks-iOS";
+		};
 		ABA891461C0214BE00907931 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = ABA891241C0214BE00907931 /* Project object */;
@@ -27,19 +45,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB1F8ED01C177AEE00505E71 /* AdLibCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdLibCollectionViewController.h; sourceTree = "<group>"; };
+		AB1F8ED11C177AEE00505E71 /* AdLibCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdLibCollectionViewController.m; sourceTree = "<group>"; };
+		AB1F8ED41C1780A600505E71 /* AdLibCustomCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdLibCustomCollectionViewCell.h; sourceTree = "<group>"; };
+		AB1F8ED51C1780A600505E71 /* AdLibCustomCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdLibCustomCollectionViewCell.m; sourceTree = "<group>"; };
+		AB4CCCFF1C0CE9C7007FAF19 /* AdverbViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdverbViewController.h; sourceTree = "<group>"; };
+		AB4CCD001C0CE9C7007FAF19 /* AdverbViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdverbViewController.m; sourceTree = "<group>"; };
+		AB4CCD021C0CEE75007FAF19 /* NounViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NounViewController.h; sourceTree = "<group>"; };
+		AB4CCD031C0CEE75007FAF19 /* NounViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NounViewController.m; sourceTree = "<group>"; };
+		AB4CCD051C0CEE86007FAF19 /* DisplaySentenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplaySentenceViewController.h; sourceTree = "<group>"; };
+		AB4CCD061C0CEE86007FAF19 /* DisplaySentenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplaySentenceViewController.m; sourceTree = "<group>"; };
+		AB4CCD101C0E3EC4007FAF19 /* MadLibTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MadLibTableViewController.h; sourceTree = "<group>"; };
+		AB4CCD111C0E3EC4007FAF19 /* MadLibTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MadLibTableViewController.m; sourceTree = "<group>"; };
+		AB4CCD1A1C110D53007FAF19 /* SecondMadLibViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondMadLibViewController.h; sourceTree = "<group>"; };
+		AB4CCD1B1C110D53007FAF19 /* SecondMadLibViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondMadLibViewController.m; sourceTree = "<group>"; };
+		AB4CCD211C14F313007FAF19 /* Fireworks-iOS */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Fireworks-iOS"; sourceTree = "<group>"; };
+		AB4CCD221C14F313007FAF19 /* Fireworks-iOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "Fireworks-iOS.xcodeproj"; sourceTree = "<group>"; };
+		AB4CCD251C14F313007FAF19 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		AB4CCD2B1C14F380007FAF19 /* FireWorksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FireWorksViewController.h; sourceTree = "<group>"; };
+		AB4CCD2C1C14F380007FAF19 /* FireWorksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FireWorksViewController.m; sourceTree = "<group>"; };
 		ABA8912C1C0214BE00907931 /* learning_obj_c.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = learning_obj_c.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABA891301C0214BE00907931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABA891311C0214BE00907931 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ABA891331C0214BE00907931 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ABA891341C0214BE00907931 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		ABA891361C0214BE00907931 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		ABA891371C0214BE00907931 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ABA891361C0214BE00907931 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		ABA891371C0214BE00907931 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		ABA8913A1C0214BE00907931 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ABA8913C1C0214BE00907931 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		ABA8913F1C0214BE00907931 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		ABA891451C0214BE00907931 /* learning_obj_cTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = learning_obj_cTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABA8914A1C0214BE00907931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABA8914B1C0214BE00907931 /* learning_obj_cTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = learning_obj_cTests.m; sourceTree = "<group>"; };
+		ABA8915A1C064E5A00907931 /* PushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PushViewController.h; path = ../PushViewController.h; sourceTree = "<group>"; };
+		ABA8915B1C064E5A00907931 /* PushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PushViewController.m; path = ../PushViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +99,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB4CCD231C14F313007FAF19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB4CCD2A1C14F313007FAF19 /* Fireworks-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		ABA891231C0214BE00907931 = {
 			isa = PBXGroup;
 			children = (
+				AB4CCD211C14F313007FAF19 /* Fireworks-iOS */,
+				AB4CCD221C14F313007FAF19 /* Fireworks-iOS.xcodeproj */,
+				AB4CCD251C14F313007FAF19 /* README */,
 				ABA8912E1C0214BE00907931 /* learning_obj_c */,
 				ABA891481C0214BE00907931 /* learning_obj_cTests */,
 				ABA8912D1C0214BE00907931 /* Products */,
@@ -81,14 +131,32 @@
 		ABA8912E1C0214BE00907931 /* learning_obj_c */ = {
 			isa = PBXGroup;
 			children = (
+				ABA8915A1C064E5A00907931 /* PushViewController.h */,
+				ABA8915B1C064E5A00907931 /* PushViewController.m */,
 				ABA891331C0214BE00907931 /* AppDelegate.h */,
 				ABA891341C0214BE00907931 /* AppDelegate.m */,
-				ABA891361C0214BE00907931 /* ViewController.h */,
-				ABA891371C0214BE00907931 /* ViewController.m */,
+				ABA891361C0214BE00907931 /* MainViewController.h */,
+				ABA891371C0214BE00907931 /* MainViewController.m */,
 				ABA891391C0214BE00907931 /* Main.storyboard */,
 				ABA8913C1C0214BE00907931 /* Images.xcassets */,
 				ABA8913E1C0214BE00907931 /* LaunchScreen.xib */,
 				ABA8912F1C0214BE00907931 /* Supporting Files */,
+				AB4CCCFF1C0CE9C7007FAF19 /* AdverbViewController.h */,
+				AB4CCD001C0CE9C7007FAF19 /* AdverbViewController.m */,
+				AB4CCD021C0CEE75007FAF19 /* NounViewController.h */,
+				AB4CCD031C0CEE75007FAF19 /* NounViewController.m */,
+				AB4CCD051C0CEE86007FAF19 /* DisplaySentenceViewController.h */,
+				AB4CCD061C0CEE86007FAF19 /* DisplaySentenceViewController.m */,
+				AB4CCD101C0E3EC4007FAF19 /* MadLibTableViewController.h */,
+				AB4CCD111C0E3EC4007FAF19 /* MadLibTableViewController.m */,
+				AB4CCD1A1C110D53007FAF19 /* SecondMadLibViewController.h */,
+				AB4CCD1B1C110D53007FAF19 /* SecondMadLibViewController.m */,
+				AB4CCD2B1C14F380007FAF19 /* FireWorksViewController.h */,
+				AB4CCD2C1C14F380007FAF19 /* FireWorksViewController.m */,
+				AB1F8ED01C177AEE00505E71 /* AdLibCollectionViewController.h */,
+				AB1F8ED11C177AEE00505E71 /* AdLibCollectionViewController.m */,
+				AB1F8ED41C1780A600505E71 /* AdLibCustomCollectionViewCell.h */,
+				AB1F8ED51C1780A600505E71 /* AdLibCustomCollectionViewCell.m */,
 			);
 			path = learning_obj_c;
 			sourceTree = "<group>";
@@ -186,6 +254,12 @@
 			mainGroup = ABA891231C0214BE00907931;
 			productRefGroup = ABA8912D1C0214BE00907931 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = AB4CCD231C14F313007FAF19 /* Products */;
+					ProjectRef = AB4CCD221C14F313007FAF19 /* Fireworks-iOS.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				ABA8912B1C0214BE00907931 /* learning_obj_c */,
@@ -194,12 +268,24 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		AB4CCD2A1C14F313007FAF19 /* Fireworks-iOS.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Fireworks-iOS.app";
+			remoteRef = AB4CCD291C14F313007FAF19 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		ABA8912A1C0214BE00907931 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB4CCD271C14F313007FAF19 /* README in Resources */,
 				ABA8913B1C0214BE00907931 /* Main.storyboard in Resources */,
+				AB4CCD261C14F313007FAF19 /* Fireworks-iOS in Resources */,
 				ABA891401C0214BE00907931 /* LaunchScreen.xib in Resources */,
 				ABA8913D1C0214BE00907931 /* Images.xcassets in Resources */,
 			);
@@ -219,9 +305,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABA891381C0214BE00907931 /* ViewController.m in Sources */,
+				ABA891381C0214BE00907931 /* MainViewController.m in Sources */,
 				ABA891351C0214BE00907931 /* AppDelegate.m in Sources */,
+				ABA8915C1C064E5A00907931 /* PushViewController.m in Sources */,
+				AB4CCD011C0CE9C7007FAF19 /* AdverbViewController.m in Sources */,
+				AB1F8ED61C1780A600505E71 /* AdLibCustomCollectionViewCell.m in Sources */,
+				AB4CCD041C0CEE75007FAF19 /* NounViewController.m in Sources */,
+				AB4CCD071C0CEE86007FAF19 /* DisplaySentenceViewController.m in Sources */,
+				AB4CCD121C0E3EC4007FAF19 /* MadLibTableViewController.m in Sources */,
 				ABA891321C0214BE00907931 /* main.m in Sources */,
+				AB4CCD1C1C110D53007FAF19 /* SecondMadLibViewController.m in Sources */,
+				AB1F8ED21C177AEE00505E71 /* AdLibCollectionViewController.m in Sources */,
+				AB4CCD2D1C14F380007FAF19 /* FireWorksViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +513,7 @@
 				ABA891511C0214BE00907931 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ABA891521C0214BE00907931 /* Build configuration list for PBXNativeTarget "learning_obj_cTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +522,7 @@
 				ABA891541C0214BE00907931 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
